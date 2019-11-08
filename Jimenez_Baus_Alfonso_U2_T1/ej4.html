@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    legend{
+        color: royalblue;
+    }
+        </style>
+    <title>Ej4</title>
+    
+</head>
+<body>
+    <h1>Reservation Request</h1>
+  <form>
+    <fieldset>
+            <legend><strong>Genelar Information</strong></legend>
+        <p>Arrival date: <input type="date"></p>
+            
+        <p>Nights: <input type="Numbre"></p>
+            
+        <p>Adults:<select name="number">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select></p>
+                    
+                <p>Children: <select name="children">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select></p>
+
+    </fieldset>
+    <fieldset>
+        <legend><strong>Preferences</strong></legend>
+            
+                <p>Room type:
+                <input type="radio" name="room" value="Standard" checked>Standard
+                <input type="radio" name="rom" value="Busisness">Busisness
+                <input type="radio" name="room" value="Suite">Suite </p>
+           
+                
+            
+                <p>Bed type:
+                <input type="radio" name="bed" value="King" checked>King
+                <input type="radio" name="bed" value="Double">Double Double</p>
+            
+                
+                <p><input type="checkbox" name="gender" value="Smoking">Smoking</p>
+    </fieldset>
+    <fieldset>
+            <legend><strong>Contact Information</strong></legend>
+            <p>Name: <input type="text"></p>
+            
+            <p>Email: <input type="email"></p>
+            
+            <p>Phone: <input type="tel"></p>
+    </fieldset>
+    <p><input type="submit" value="Submit Reservation">
+    <input type="reset" value="Clear"></p> 
+
+  </form>  
+     
+</body>
+</html>

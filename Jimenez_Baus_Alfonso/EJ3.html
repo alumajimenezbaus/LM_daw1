@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EJ3</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th colspan="2" style="background-color: cadetblue;">IES Alixar Login</th>
+            </tr>
+            <tr>
+                <td>Usuario: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Fecha de nacimiento:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td> Curso de Matriculación</td> 
+            <td><select name="curso">
+                    <option value="curso">Primero Daw1</option>
+                    <option value="curso">Segundo Daw1</option></select></td>
+            </tr>
+            <tr>
+                <td rowspan="4">Role:</td>
+                <td><input type="radio" name="Role" value="Estudiante" checked>Estudiante</td>
+            <tr>
+                <td><input type="radio" name="Role" value="Profesor">Profesor</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="Role" value="Apoyo">Apoyo</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="Role" value="Staff">Staff</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Forma de Comunicación:</td>
+                <td><input type="checkbox" name="com" value="Mail">Mail</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="com" value="Teléfono">Teléfono</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="com" value="Correo ordinario" checked>Correo ordinario</td>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" value="Enviar"> <input type="reset" value="Clear"></th>
+            </tr>
+        </table>
+        
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+th, td{border-bottom: 1px solid black;}
+
+tr:nth-child(odd) {background: #FFF}
+tr:nth-child(even) {background: yellowgreen}
+
+th{
+    color: white;
+    background-color: black;
+}
+
+tr:hover{
+    background-color: cornflowerblue;
+    color: white;
+}

@@ -1,0 +1,39 @@
+
+ table{
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+     border-left: 2px solid black;
+     border-right: 2px solid black;
+ }
+  th, td {
+    padding: 5px;
+  }
+   
+
+  tr:first-of-type th:first-child{
+      background-color: rgba(139, 135, 135, 0.61);
+      color: rgb(87, 87, 245);
+    }
+
+  tr:nth-child(2) td:first-child{
+      padding-top: 30px;
+      color: rgb(207, 80, 57);
+      font-size: larger;
+  }
+
+  
+
+  tr:nth-child(4) td:first-child{
+    color: rgb(207, 80, 57);
+    font-size: larger;
+   padding-bottom: 0px;
+}
+
+    
+
+
+
+tr:nth-child(8) td:first-child{
+    color: rgb(207, 80, 57);
+    font-size: larger;
+}

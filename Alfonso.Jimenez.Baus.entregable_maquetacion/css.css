@@ -1,0 +1,143 @@
+*{box-sizing: border-box;}
+
+
+.moodle{
+    background-color: black;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+.login{
+    text-align: right;
+}
+h1{
+    padding: 20px 0px 0px 10px;
+
+}
+
+.lista {
+    background-color: yellowgreen;
+    height:35px;
+    border-bottom: solid black 2px;
+}
+.lista div:hover{
+    background-color: rgb(29, 149, 153);
+    color:white;
+}
+.lista div{
+    float: left;
+    padding: 10px;
+}
+.menu-principal{
+    margin-top: 15px;
+    float: left;
+    clear: both;
+    background-color: rgb(184, 175, 175);
+    width: 20%;
+    border-radius: 5px 5px 5px 5px;
+   
+
+}
+
+.menu{
+    text-align: center;
+}
+
+.h4{
+    float: left;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.clear{
+    clear: both;
+    width: 100%;
+}
+.img{
+    width: 80%;
+    height: 80%;
+}
+
+/*patio*/
+.padre_rec{
+    width: 55%;
+    float: left;
+    margin-left: 10px;
+    
+   
+}
+.recreo{
+    float: left;
+    
+    
+    
+}
+
+.img_rec{
+    width: 100%;
+    padding-left: 15px;
+    margin-top: 25px;
+}
+
+/*calendario*/
+.padre_calendario{
+    margin-top: 15px;
+    background-color: rgb(184, 175, 175);
+    float: left;
+    width: 20%;
+    border-radius: 5px;
+}
+.calendario{
+    float: left;
+    width: 100%;
+}
+.cal_img{
+    padding-left: 15%;
+    width: 80%;
+    height: 80%;
+}
+
+/*categoria*/
+
+.categoria{
+    clear: both;
+    background-color: rgb(184, 175, 175);
+    border-bottom: solid green 2px;
+    margin-top: 300px;
+}
+
+
+/*cursos*/
+.cursos{
+    border-radius: 5px;
+    background-color: rgb(184, 175, 175);
+    position: relative;
+}
+.img_arbol{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 93%;
+    top:115px
+
+}
+
+.lista2{
+    list-style: none;
+}
+span{
+    color: black;
+}
+
+li{
+    padding: 5px;
+    color:rgb(87, 121, 87);
+}
+/*login2*/
+.login2{
+    text-align: center;
+    clear: both;
+    background-color: black;
+    color: white;
+    border-radius: 0px 0px 8px 8px;
+}
